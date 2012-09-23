@@ -23,6 +23,7 @@
         <activity android:name=".WorldInfoActivity"/>
         <activity android:name=".EntitiesInfoActivity"/>
         <activity android:name=".TileEntityViewActivity"/>
+        <activity android:name=".ChestSlotsActivity"/>
         <activity android:name=".AboutAppActivity"/>
     </application>
 </manifest> 
