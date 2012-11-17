@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
       package="net.zhuoweizhang.pocketinveditor"
-      android:versionCode="11"
-      android:versionName="1.5.1"
+      android:versionCode="13"
+      android:versionName="1.6"
       android:installLocation="auto">
     <uses-sdk android:minSdkVersion="8" 
               android:targetSdkVersion="14"/>
@@ -24,6 +24,7 @@
         <activity android:name=".EntitiesInfoActivity"/>
         <activity android:name=".TileEntityViewActivity"/>
         <activity android:name=".ChestSlotsActivity"/>
+        <activity android:name=".ViewTerrainActivity"/>
         <activity android:name=".AboutAppActivity"/>
     </application>
 </manifest> 
