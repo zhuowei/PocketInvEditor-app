@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
       package="net.zhuoweizhang.pocketinveditor"
-      android:versionCode="13"
-      android:versionName="1.6"
+      android:versionCode="16"
+      android:versionName="1.6.3"
       android:installLocation="auto">
     <uses-sdk android:minSdkVersion="8" 
               android:targetSdkVersion="14"/>
@@ -14,6 +14,8 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
+                <!-- Samsung's multiwindow intent -->
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
             </intent-filter>
         </activity>
         <activity android:name=".EditorActivity" />
@@ -26,5 +28,11 @@
         <activity android:name=".ChestSlotsActivity"/>
         <activity android:name=".ViewTerrainActivity"/>
         <activity android:name=".AboutAppActivity"/>
+
+        <!-- Samsung's multiwindow metadata -->
+        <meta-data android:name="com.sec.android.support.multiwindow" android:value="true"/>
+        <meta-data android:name="com.sec.minimode.icon.portrait.normal" android:resource="@drawable/ic_launcher" />
+        <meta-data android:name="com.sec.minimode.icon.landscape.normal" android:resource="@drawable/ic_launcher" />
     </application>
-</manifest> 
+</manifest>
+
