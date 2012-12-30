@@ -27,6 +27,8 @@
         <activity android:name=".TileEntityViewActivity"/>
         <activity android:name=".ChestSlotsActivity"/>
         <activity android:name=".ViewTerrainActivity"/>
+        <activity android:name=".LoadoutExportActivity"/>
+        <activity android:name=".LoadoutImportActivity"/>
         <activity android:name=".AboutAppActivity"/>
 
         <!-- Samsung's multiwindow metadata -->
