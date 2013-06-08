@@ -15,6 +15,11 @@ public final class PocketInvEditorAppActivity extends PocketInvEditorActivity {
 	public static final String AMAZON_APPSTORE_URL = "amzn://apps/android?p=";
 
 	@Override
+	protected void loadContentView() {
+		setContentView(R.layout.world_select);
+	}
+
+	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		if (item.getItemId() == R.id.worldselect_getpro) {
 			displayGetProActivity();

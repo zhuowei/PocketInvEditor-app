@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <com.google.ads.AdView android:id="@+id/ad"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_alignParentBottom="true"
+                           ads:adSize="SMART_BANNER"
+                           ads:adUnitId="a151b28451d9a92"
+                           ads:testDevices="DF28838C26BDFAE7EB063BFEB7A241D3"
+                           ads:loadAdOnCreate="true"/>
+
+    <ListView android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/ad"/>
+</RelativeLayout>

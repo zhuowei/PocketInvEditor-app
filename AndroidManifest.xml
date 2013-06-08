@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
       package="net.zhuoweizhang.pocketinveditor"
-      android:versionCode="20"
-      android:versionName="1.7.2"
+      android:versionCode="24"
+      android:versionName="1.8.1"
       android:installLocation="auto">
     <uses-sdk android:minSdkVersion="8" 
               android:targetSdkVersion="14"/>
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application android:icon="@drawable/ic_launcher" android:label="@string/app_name" >
         <activity android:name=".PocketInvEditorAppActivity"
                   android:label="@string/app_name">
@@ -31,6 +35,10 @@
         <activity android:name=".LoadoutImportActivity"/>
         <activity android:name=".ArmorSlotsActivity"/>
         <activity android:name=".AboutAppActivity"/>
+        <activity android:name=".MicrotransactionActivity"/>
+
+        <activity android:name="com.google.ads.AdActivity"
+                  android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
 
         <!-- Samsung's multiwindow metadata -->
         <meta-data android:name="com.sec.android.support.multiwindow" android:value="true"/>
