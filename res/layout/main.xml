@@ -9,7 +9,7 @@
                            android:layout_height="wrap_content"
                            android:layout_alignParentBottom="true"
                            ads:adSize="SMART_BANNER"
-                           ads:adUnitId="a151b28451d9a92"/>
+                           ads:adUnitId="ca-app-pub-2652482030334356/9513706223"/>
 
 <ScrollView 
     android:layout_width="fill_parent"

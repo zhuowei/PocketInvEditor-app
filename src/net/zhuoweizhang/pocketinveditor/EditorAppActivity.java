@@ -18,7 +18,7 @@ public class EditorAppActivity extends EditorActivity {
 		adView.loadAd(adRequest);
 
 		interstitial = new InterstitialAd(this);
-		interstitial.setAdUnitId(PocketInvEditorAppActivity.AD_UNIT_ID);
+		interstitial.setAdUnitId("ca-app-pub-2652482030334356/7057290623");
 		AdRequest adRequest2 = new AdRequest.Builder()
 			.addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
 			.addTestDevice(PocketInvEditorAppActivity.DEVICE_ID_TESTER)
